@@ -1,0 +1,34 @@
+# BinSense AI — VS Code extensions
+# Install all at once (PowerShell):
+#   Get-Content .claude/setup/vscode_extensions.txt | Where-Object { $_ -notmatch '^#' -and $_ -ne '' } | ForEach-Object { code --install-extension $_ }
+#
+# Or install one by one via VS Code Extensions panel (Ctrl+Shift+X).
+
+# ── Jupyter / Notebook support (core) ─────────────────────────────────────────
+ms-toolsai.jupyter                   # Run .ipynb notebooks in VS Code
+ms-toolsai.jupyter-keymap            # Jupyter keyboard shortcuts in notebooks
+# NOTE: jupyter-renderers and jupyter-cell-tags are now bundled inside
+#       ms-toolsai.jupyter (v2025+) — no separate install needed.
+
+# ── Python language support ────────────────────────────────────────────────────
+ms-python.python                     # Python extension (linting, debugging, env)
+ms-python.vscode-pylance             # Fast language server (IntelliSense, types)
+ms-python.black-formatter            # Black auto-formatter
+ms-python.isort                      # Import sorting
+
+# ── Remote / server connectivity ──────────────────────────────────────────────
+ms-vscode-remote.remote-ssh          # Connect VS Code to a remote Jupyter server
+                                     # (use this to attach VS Code to a Colab VM
+                                     #  via the SSH tunnel trick — see ENVIRONMENT_SETUP.md)
+
+# ── Docker (for Weeks 4-6) ────────────────────────────────────────────────────
+ms-azuretools.vscode-docker          # Docker file editing + container management
+
+# ── Git / GitHub ──────────────────────────────────────────────────────────────
+eamodio.gitlens                      # Git history, blame, diffs
+github.vscode-pull-request-github    # GitHub PRs inside VS Code
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+streetsidesoftware.code-spell-checker
+yzhang.markdown-all-in-one           # Markdown editing
+redhat.vscode-yaml                   # YAML (docker-compose, environment.yml)

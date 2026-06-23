@@ -1,0 +1,25 @@
+{
+  // ── Jupyter kernel ──────────────────────────────────────────────────────────
+  // Points VS Code to the local binsense venv (Python 3.11, all BinSense libs).
+  // Venv intentionally NOT on Google Drive (Drive breaks hardlinks on venvs).
+  "python.defaultInterpreterPath": "C:\\Users\\rishi\\envs\\binsense\\Scripts\\python.exe",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+  // ── Python formatting ────────────────────────────────────────────────────────
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // ── File exclusions (keep Drive sync clean) ──────────────────────────────────
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.ipynb_checkpoints": true
+  },
+
+  // ── Notebook display settings ────────────────────────────────────────────────
+  "notebook.lineNumbers": "on",
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 100
+}

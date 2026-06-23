@@ -1,0 +1,1581 @@
+[
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/04837.jpg",
+      "bin_id": "04837",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01CSH5MYQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/110730.jpg",
+      "bin_id": "110730",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B000MOL2GU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112602.jpg",
+      "bin_id": "112602",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00GM9NPIW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104977.jpg",
+      "bin_id": "104977",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00T5TUCTQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105651.jpg",
+      "bin_id": "105651",
+      "asin_count": 1,
+      "expected_quantity": 30,
+      "asin_list": [
+        "B00CIECDEM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 30 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/106854.jpg",
+      "bin_id": "106854",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00XJRTA8Y"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/108103.jpg",
+      "bin_id": "108103",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B001290WMY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/11041.jpg",
+      "bin_id": "11041",
+      "asin_count": 1,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B008VD9BQM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02115.jpg",
+      "bin_id": "02115",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B013MCR41K"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/06488.jpg",
+      "bin_id": "06488",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00NGZE5LG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/111639.jpg",
+      "bin_id": "111639",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B007R6TR2W"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05533.jpg",
+      "bin_id": "05533",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00II8N0IK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10068.jpg",
+      "bin_id": "10068",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B002DUD6TW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/113024.jpg",
+      "bin_id": "113024",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B019EOIIJM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112898.jpg",
+      "bin_id": "112898",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B011NQ2BCY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109978.jpg",
+      "bin_id": "109978",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00DMPGFSQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/106596.jpg",
+      "bin_id": "106596",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00NCMH0JC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/107133.jpg",
+      "bin_id": "107133",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B013SUNQT0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/07549.jpg",
+      "bin_id": "07549",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B009SD6TNM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05851.jpg",
+      "bin_id": "05851",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B01D3D57YY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112808.jpg",
+      "bin_id": "112808",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0053T4PHC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/06973.jpg",
+      "bin_id": "06973",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B010VWT110"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/107854.jpg",
+      "bin_id": "107854",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B003W47NII"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00084.jpg",
+      "bin_id": "00084",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00SV2OP9Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/03465.jpg",
+      "bin_id": "03465",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00VPVNHJY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/01687.jpg",
+      "bin_id": "01687",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "193362275X"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/100669.jpg",
+      "bin_id": "100669",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B009T87JSU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/106809.jpg",
+      "bin_id": "106809",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B005T3GRNW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/09277.jpg",
+      "bin_id": "09277",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00MFPBW4Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05480.jpg",
+      "bin_id": "05480",
+      "asin_count": 1,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B010XYJCP6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104995.jpg",
+      "bin_id": "104995",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B003VWU2WA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/113735.jpg",
+      "bin_id": "113735",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00PU17QYM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/108699.jpg",
+      "bin_id": "108699",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0151RQPF0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02920.jpg",
+      "bin_id": "02920",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00IOFD096"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10325.jpg",
+      "bin_id": "10325",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00YWD4V5Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/108612.jpg",
+      "bin_id": "108612",
+      "asin_count": 1,
+      "expected_quantity": 20,
+      "asin_list": [
+        "B00XESY010"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 20 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10655.jpg",
+      "bin_id": "10655",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00NFSGS4Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/103204.jpg",
+      "bin_id": "103204",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00VTTZVEQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/101185.jpg",
+      "bin_id": "101185",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B01EIUJPS0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10999.jpg",
+      "bin_id": "10999",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00394S9F2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/102202.jpg",
+      "bin_id": "102202",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01BSEQKI2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/103276.jpg",
+      "bin_id": "103276",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01B8962GW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/03992.jpg",
+      "bin_id": "03992",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00AX30MP2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104521.jpg",
+      "bin_id": "104521",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B01FVGCBAY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/111775.jpg",
+      "bin_id": "111775",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B005HRZPY2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00875.jpg",
+      "bin_id": "00875",
+      "asin_count": 1,
+      "expected_quantity": 12,
+      "asin_list": [
+        "B000RI6C7K"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 12 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/08018.jpg",
+      "bin_id": "08018",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B002J4U62W"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/06388.jpg",
+      "bin_id": "06388",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01D6VEI16"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109435.jpg",
+      "bin_id": "109435",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0089JCQHY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/101071.jpg",
+      "bin_id": "101071",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00Y4QBK46"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112532.jpg",
+      "bin_id": "112532",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B0027IOGNA",
+        "B00FY0S2NS",
+        "B00SN68O5Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05735.jpg",
+      "bin_id": "05735",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "0078111005",
+        "0321885171",
+        "1483352722"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/103594.jpg",
+      "bin_id": "103594",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B0006IX7YW",
+        "B00JOEAJ2M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02607.jpg",
+      "bin_id": "02607",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00AZ55T9C",
+        "B00FYYZ3T0",
+        "B00P3IAYSC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02325.jpg",
+      "bin_id": "02325",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B004ZLAGLS",
+        "B01B7GSPDE",
+        "B01DLXHOCE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/102152.jpg",
+      "bin_id": "102152",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "1933054395",
+        "B019HN6RUC",
+        "B01BZL66PU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/04588.jpg",
+      "bin_id": "04588",
+      "asin_count": 3,
+      "expected_quantity": 11,
+      "asin_list": [
+        "0821851683",
+        "1580137962",
+        "B00UEAI3OQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 11 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/107202.jpg",
+      "bin_id": "107202",
+      "asin_count": 2,
+      "expected_quantity": 12,
+      "asin_list": [
+        "B00C2R54QY",
+        "B0186T37S8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 12 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112195.jpg",
+      "bin_id": "112195",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "1285453549",
+        "B00FQH7MQ2",
+        "B00ZCFVTRQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/113234.jpg",
+      "bin_id": "113234",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B000ULPVPI",
+        "B01DIFF7NI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/01856.jpg",
+      "bin_id": "01856",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B001GQK2AK",
+        "B018JREI6M",
+        "B01ABUD6CC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10698.jpg",
+      "bin_id": "10698",
+      "asin_count": 2,
+      "expected_quantity": 9,
+      "asin_list": [
+        "B004I12O0Q",
+        "B017PD9C1M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 9 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10529.jpg",
+      "bin_id": "10529",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00JE9Y20W",
+        "B01C4SXVLK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112550.jpg",
+      "bin_id": "112550",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00C0K49V4",
+        "B00C6O9AV8",
+        "B00F1LX74E"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10706.jpg",
+      "bin_id": "10706",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B0007P94PU",
+        "B01CY5DYQK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/111507.jpg",
+      "bin_id": "111507",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "1571103422",
+        "B000067SR9",
+        "B0061Y0H1Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/100924.jpg",
+      "bin_id": "100924",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B00006IFHD",
+        "B005NXS6D2",
+        "B016OV18U4"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104875.jpg",
+      "bin_id": "104875",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B000WFS9G0",
+        "B00M1VN1MA",
+        "B01EXYXM94"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/09791.jpg",
+      "bin_id": "09791",
+      "asin_count": 2,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00PWNHUIU",
+        "B01D5EOH0Q"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02912.jpg",
+      "bin_id": "02912",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B001L498EI",
+        "B00LHE5R10"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/102262.jpg",
+      "bin_id": "102262",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B001WT11Y2",
+        "B005DJUVC0",
+        "B005QUQ99U"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109747.jpg",
+      "bin_id": "109747",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B006UD2RB6",
+        "B00XISZ4ES",
+        "B01ALDYJ0W"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/102400.jpg",
+      "bin_id": "102400",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B00IO2M5S6",
+        "B00SD8GUM8",
+        "B01DNCM09K"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10193.jpg",
+      "bin_id": "10193",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B007UT8XHQ",
+        "B0137FBG52",
+        "B01C89MDZU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/107895.jpg",
+      "bin_id": "107895",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B0054NFWH4",
+        "B00VSBU1ZY",
+        "B01FCY5ZR6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00163.jpg",
+      "bin_id": "00163",
+      "asin_count": 3,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B000CHKIVW",
+        "B002SB8LLE",
+        "B011XM4GJO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104541.jpg",
+      "bin_id": "104541",
+      "asin_count": 2,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B00002N6RV",
+        "B00N82WTNS"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00684.jpg",
+      "bin_id": "00684",
+      "asin_count": 3,
+      "expected_quantity": 10,
+      "asin_list": [
+        "B00181UEHY",
+        "B003WHF148",
+        "B00O9GW8VK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 10 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/01443.jpg",
+      "bin_id": "01443",
+      "asin_count": 2,
+      "expected_quantity": 10,
+      "asin_list": [
+        "B0007506U2",
+        "B00OMX2PKY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 10 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112256.jpg",
+      "bin_id": "112256",
+      "asin_count": 2,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000E9DQFI",
+        "B01B25Q4MY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/03958.jpg",
+      "bin_id": "03958",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00VXRY8ZC",
+        "B01AZQQWDW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02907.jpg",
+      "bin_id": "02907",
+      "asin_count": 2,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00028LS06",
+        "B00M6HDTXK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10817.jpg",
+      "bin_id": "10817",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B00H8YGOMO",
+        "B00KQ3957U",
+        "B014TZ6636"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05029.jpg",
+      "bin_id": "05029",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00WGLZGDW",
+        "B019UGWNMM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105721.jpg",
+      "bin_id": "105721",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "0393351904",
+        "B00125Q27M",
+        "B00VY1G7GA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109763.jpg",
+      "bin_id": "109763",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B001QY0SLU",
+        "B0049Z6WQ8",
+        "B0132LVW0A"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/08275.jpg",
+      "bin_id": "08275",
+      "asin_count": 2,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B003YKPO3Q",
+        "B00AJECIUW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/102677.jpg",
+      "bin_id": "102677",
+      "asin_count": 2,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B00SZR3JLW",
+        "B015XW83N0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104607.jpg",
+      "bin_id": "104607",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B01ASVDR8M",
+        "B01CNAY8DE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/01128.jpg",
+      "bin_id": "01128",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B000CQBMD6",
+        "B01DFSFY2W"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00894.jpg",
+      "bin_id": "00894",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000FPAIEI",
+        "B01CEAYX38",
+        "B01E0ZKJ1U"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/03997.jpg",
+      "bin_id": "03997",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00Q1VBX76",
+        "B00S0TS1KY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/10659.jpg",
+      "bin_id": "10659",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B001167XXO",
+        "B012HFFSDO",
+        "B014TE51C4"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00736.jpg",
+      "bin_id": "00736",
+      "asin_count": 3,
+      "expected_quantity": 9,
+      "asin_list": [
+        "0891075615",
+        "B00322FNPK",
+        "B0108Z7I9M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 9 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104478.jpg",
+      "bin_id": "104478",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000I0396E",
+        "B00EKPHGQM",
+        "B00HRSWRHW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/111848.jpg",
+      "bin_id": "111848",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B000E1FZIW",
+        "B004VNYXAU",
+        "B01DHTXME6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/106984.jpg",
+      "bin_id": "106984",
+      "asin_count": 2,
+      "expected_quantity": 21,
+      "asin_list": [
+        "B000I1EE4O",
+        "B00VBNQEI2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 21 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112784.jpg",
+      "bin_id": "112784",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B00I1JWWXU",
+        "B01C5543MS",
+        "B01CFMQZXQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104200.jpg",
+      "bin_id": "104200",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B015IEM9ME",
+        "B01ANMNT20"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/101565.jpg",
+      "bin_id": "101565",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00MP08AI2",
+        "B010AH61G4",
+        "B01EKBKFWM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105308.jpg",
+      "bin_id": "105308",
+      "asin_count": 4,
+      "expected_quantity": 9,
+      "asin_list": [
+        "B001D11M9S",
+        "B005KDEIZ0",
+        "B00ZBCRIQ6",
+        "B0198Y9G0S"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 9 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/112151.jpg",
+      "bin_id": "112151",
+      "asin_count": 4,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B005TTKC9Q",
+        "B00ZMQKNUO",
+        "B01E9EGCEA",
+        "B01GXMFZGC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105500.jpg",
+      "bin_id": "105500",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "0399160574",
+        "1577662504",
+        "B018280H2W",
+        "B01D8KOZF4"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02253.jpg",
+      "bin_id": "02253",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B000078CR6",
+        "B007WMB8MS",
+        "B00LIB1PPO",
+        "B012MH8VPE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/103312.jpg",
+      "bin_id": "103312",
+      "asin_count": 4,
+      "expected_quantity": 11,
+      "asin_list": [
+        "B00K4VZNBQ",
+        "B010VIP4LU",
+        "B013SHHYE6",
+        "B015TC63LI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 11 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105507.jpg",
+      "bin_id": "105507",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00488I8PE",
+        "B004YXWXYU",
+        "B00NIWR5KU",
+        "B01488541O"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/05645.jpg",
+      "bin_id": "05645",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "0073513903",
+        "B000WJVVF2",
+        "B00YOI20FW",
+        "B016N85VTW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/09470.jpg",
+      "bin_id": "09470",
+      "asin_count": 4,
+      "expected_quantity": 10,
+      "asin_list": [
+        "B00DQDJK86",
+        "B00IZF0LCE",
+        "B00K85690C",
+        "B01CIV60UC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 10 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/00643.jpg",
+      "bin_id": "00643",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B005XWR5NA",
+        "B00ED3GU1I",
+        "B01AM7WF4O",
+        "B01BNJL3KC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/07775.jpg",
+      "bin_id": "07775",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B0007XJOLG",
+        "B014TX0NSW",
+        "B01A78LJUY",
+        "B01AZSRPW2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109703.jpg",
+      "bin_id": "109703",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B000I2OOPW",
+        "B009SZ2P4C",
+        "B014TE51C4",
+        "B018Y65QFA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105260.jpg",
+      "bin_id": "105260",
+      "asin_count": 4,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B0027A3CDS",
+        "B0099ZDX2O",
+        "B00UNIBNVE",
+        "B0155BVTXA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/109618.jpg",
+      "bin_id": "109618",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B001J63G28",
+        "B00DCDZM2I",
+        "B00MCC376S",
+        "B01HC2WYFW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/104773.jpg",
+      "bin_id": "104773",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B000JWK42S",
+        "B001OO3JC2",
+        "B00AQ64BG2",
+        "B014WTJGL8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02047.jpg",
+      "bin_id": "02047",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B0009Z3K4E",
+        "B003YZYWIY",
+        "B00AQ64BG2",
+        "B00TB737SU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/03150.jpg",
+      "bin_id": "03150",
+      "asin_count": 4,
+      "expected_quantity": 10,
+      "asin_list": [
+        "B003VWU2WA",
+        "B007SUKUSW",
+        "B0116EDNH0",
+        "B01H30NQCI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 10 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/105238.jpg",
+      "bin_id": "105238",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00015UC5M",
+        "B000NUAFF2",
+        "B0160DK70I",
+        "B01BFKWTQG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02845.jpg",
+      "bin_id": "02845",
+      "asin_count": 4,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B00006B8IU",
+        "B002JAKRAM",
+        "B004LO7ND8",
+        "B00RXY16EA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/08473.jpg",
+      "bin_id": "08473",
+      "asin_count": 4,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B000FSQ7F4",
+        "B003GISNGQ",
+        "B00YSG6OFM",
+        "B019ZI4YKO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "https://aft-vbi-pds.s3.amazonaws.com/bin-images/02828.jpg",
+      "bin_id": "02828",
+      "asin_count": 4,
+      "expected_quantity": 11,
+      "asin_list": [
+        "B00D5PXUUY",
+        "B00JW7JPL2",
+        "B00KC21XZ2",
+        "B00ZHQ5YVM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 11 item(s) total."
+    }
+  }
+]

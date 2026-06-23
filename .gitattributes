@@ -1,0 +1,19 @@
+# Normalize line endings — repo spans Windows (dev), Linux (Colab/Docker).
+# Store everything as LF in the repo; check out native on Windows.
+* text=auto eol=lf
+
+# Shell scripts must stay LF even on Windows checkout
+*.sh text eol=lf
+
+# Notebooks are JSON text; let git diff them but keep LF
+*.ipynb text eol=lf
+
+# Binary assets — never touch
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.pdf   binary
+*.docx  binary
+*.pt    binary
+*.pth   binary
+*.faiss binary

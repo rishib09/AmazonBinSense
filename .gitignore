@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments — NEVER commit; lives at C:\Users\rishi\envs\binsense
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — large files stay on Google Drive, not in git
+data/images/
+data/metadata/
+data/labels/
+# data/splits/ is intentionally tracked — split CSVs are small and define
+# the seed/extend/eval partition (reproducibility artifact).
+mlruns/
+
+# Models — saved to Drive/registry, not git
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
