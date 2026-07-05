@@ -41,18 +41,33 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import random
 import sys
 from pathlib import Path
 
-# ── Path config ───────────────────────────────────────────────────────────────
-BASE_DIR      = Path(__file__).resolve().parents[2]
+# ── Path config (code/data split aware) ───────────────────────────────────────
+# Data (images/metadata) may live apart from code on Google Drive. Resolve the
+# data root via utils.env_utils / BINSENSE_DATA_DIR (mirrors the notebook Cell 1
+# bootstrap). Reproducibility artifacts (split CSVs, the sample manifest) live
+# with the CODE in the git repo so they stay version-controlled.
+LOCAL_DATA = r"G:\My Drive\Interview Kickstart\Capstone Project\Amazon BinSense\data"
+if not os.getenv("BINSENSE_DATA_DIR") and Path(LOCAL_DATA).exists():
+    os.environ["BINSENSE_DATA_DIR"] = LOCAL_DATA
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from utils.env_utils import setup_env
+
+cfg = setup_env(verbose=False)
+
+BASE_DIR      = cfg.base_dir                     # code root (git repo)
 CSV_PATH      = BASE_DIR / "analysis" / "unique_image_names.csv"
-META_DIR      = BASE_DIR / "data" / "metadata"
-IMAGES_DIR    = BASE_DIR / "data" / "images"
-SPLITS_DIR    = BASE_DIR / "data" / "splits"
+META_DIR      = cfg.metadata_dir                 # data root (Drive on this machine)
+IMAGES_DIR    = cfg.images_dir
+CODE_SPLITS   = BASE_DIR / "data" / "splits"     # git-tracked splits
+EVAL_CSV      = CODE_SPLITS / "eval.csv"         # held-out gold — NEVER label/train on it
 OUTPUT_JSON   = BASE_DIR / "data" / "label_studio_tasks.json"
-OUTPUT_CSV    = SPLITS_DIR / "label_studio_sample.csv"
+OUTPUT_CSV    = CODE_SPLITS / "label_studio_sample.csv"
 
 # ── S3 public URL template ────────────────────────────────────────────────────
 S3_IMAGE_URL  = "https://aft-vbi-pds.s3.amazonaws.com/bin-images/{bin_id}.jpg"
@@ -65,6 +80,24 @@ def load_ids(csv_path: Path) -> list[str]:
     with open(csv_path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             ids.append(row["image_metadata_filename"].strip().zfill(5))
+    return ids
+
+
+def load_eval_ids(path: Path) -> set[str]:
+    """Bin IDs held out for eval — must NEVER enter the labeling/training pool."""
+    if not path.exists():
+        print(
+            f"  WARNING: {path} not found; NOT excluding any eval bins "
+            f"(run notebook 02 to produce it). Risk of train/eval leakage.",
+            file=sys.stderr,
+        )
+        return set()
+    ids: set[str] = set()
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            bid = (row.get("bin_id") or "").strip()
+            if bid:
+                ids.add(bid.zfill(5))
     return ids
 
 
@@ -118,15 +151,21 @@ def stratified_sample(
     n_multi: int,
     n_hard: int,
     seed: int,
+    exclude: set[str] = frozenset(),
 ) -> list[str]:
     """
     Partition IDs by ASIN count bucket and draw without replacement.
     IDs whose metadata is missing are put in a fallback pool.
+    Bins in `exclude` (the eval holdout) are dropped before sampling.
     """
     rng = random.Random(seed)
 
     single_pool, multi_pool, hard_pool, unknown_pool = [], [], [], []
+    n_excluded = 0
     for bid in ids:
+        if bid in exclude:
+            n_excluded += 1
+            continue
         meta = load_meta(bid)
         n = asin_count(meta)
         if n == 1:
@@ -154,6 +193,8 @@ def stratified_sample(
         + draw(hard_pool,   n_hard,   "4+ ASIN")
     )
 
+    if n_excluded:
+        print(f"  Excluded {n_excluded} eval/held-out bin(s) from the labeling pool.")
     print(
         f"  Pools available — single: {len(single_pool)}, "
         f"multi: {len(multi_pool)}, hard: {len(hard_pool)}, "
@@ -212,15 +253,24 @@ def main() -> None:
     ids = load_ids(CSV_PATH)
     print(f"  {len(ids)} total IDs in subset")
 
+    exclude = load_eval_ids(EVAL_CSV)
+    print(f"  {len(exclude)} eval bins loaded for exclusion (from {EVAL_CSV.name})")
+
     print("Sampling ...")
-    sampled = stratified_sample(ids, args.single, args.multi, args.hard, args.seed)
+    sampled = stratified_sample(
+        ids, args.single, args.multi, args.hard, args.seed, exclude=exclude
+    )
     print(f"  Selected {len(sampled)} bins for labeling")
+
+    # Safety net: assert no eval bin slipped through
+    leaked = sorted(set(sampled) & exclude)
+    assert not leaked, f"Eval leakage — these eval bins are in the sample: {leaked}"
 
     print("Building Label Studio tasks ...")
     tasks = [build_task(bid, args.local) for bid in sampled]
 
     # ── Write outputs ──────────────────────────────────────────────────────────
-    SPLITS_DIR.mkdir(parents=True, exist_ok=True)
+    CODE_SPLITS.mkdir(parents=True, exist_ok=True)
     args.output.parent.mkdir(parents=True, exist_ok=True)
 
     with open(args.output, "w", encoding="utf-8") as f:
