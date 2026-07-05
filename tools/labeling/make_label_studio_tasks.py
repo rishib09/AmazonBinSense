@@ -76,10 +76,15 @@ S3_IMAGE_URL  = "https://aft-vbi-pds.s3.amazonaws.com/bin-images/{bin_id}.jpg"
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def load_ids(csv_path: Path) -> list[str]:
+    # Dedup after zero-padding: the CSV has both '1102' and '01102' (same bin).
     ids: list[str] = []
+    seen: set[str] = set()
     with open(csv_path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            ids.append(row["image_metadata_filename"].strip().zfill(5))
+            bid = row["image_metadata_filename"].strip().zfill(5)
+            if bid not in seen:
+                seen.add(bid)
+                ids.append(bid)
     return ids
 
 

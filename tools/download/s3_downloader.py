@@ -107,16 +107,29 @@ class BinS3Downloader:
         Both short IDs ('00964' → kept as-is) and long IDs ('113526' → kept)
         are handled correctly; zfill(5) is a safe no-op for ≥5-digit IDs.
 
+        Duplicates that collapse after zero-padding are dropped (the source CSV
+        contains both '1102' and '01102', which are the same bin '01102'). Without
+        this, the ID list is 3875 but only 3874 unique bins exist — inflating the
+        count and making verify() double-count, which falsely reports "1 missing".
+
         Returns
         -------
-        List of bin ID strings in CSV order, e.g. ['113526', '00964', ...]
+        List of unique bin ID strings in CSV order, e.g. ['113526', '00964', ...]
         """
         ids: list[str] = []
+        seen: set[str] = set()
+        n_dupes = 0
         with open(csv_path, newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                raw = row["image_metadata_filename"].strip()
-                ids.append(raw.zfill(5))   # normalise; noop for len≥5
+                bid = row["image_metadata_filename"].strip().zfill(5)  # normalise; noop for len≥5
+                if bid in seen:
+                    n_dupes += 1
+                    continue
+                seen.add(bid)
+                ids.append(bid)
+        if n_dupes:
+            log.info("load_ids: dropped %d duplicate ID(s) after zero-padding", n_dupes)
         return ids
 
     # ── S3 key + local destination ────────────────────────────────────────────
