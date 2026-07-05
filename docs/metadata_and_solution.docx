@@ -1,0 +1,57 @@
+Solution Overview
+BinSense AI aims to address these challenges through an innovative computer vision solution. The system will:
+
+1. Automate Verification
+   ```
+   Input → Image Processing → Item Detection → Quantity Validation → Output
+   ```
+2. Enhance Accuracy
+   - Implement deep learning models for item recognition
+   - Utilize metadata for cross-validation
+   - Apply quality checks through multiple validation layers
+
+3. Improve Efficiency
+   - Reduce processing time by 75%
+   - Minimize human error
+   - Enable real-time inventory updates
+
+Technical Foundation
+
+Dataset details
+The Amazon Bin Image Dataset contains over 535K images and metadata from bins of a pod in an operating Amazon Fulfillment Center. The bin images in this dataset are captured as robot units carrying pods as part of normal Amazon Fulfillment Center operations.
+    • You can find more details about the dataset here
+
+The Amazon Bin Image Dataset provides a comprehensive foundation for our solution:
+
+Dataset Structure:
+```
+root/
+  ├── images/
+  │   ├── bin_0001.jpg
+  │   ├── bin_0002.jpg
+  │   └── ...
+  └── metadata/
+      ├── bin_0001.json
+      ├── bin_0002.json
+      └── ...
+```
+
+
+Images:
+
+
+
+Above are some typical images in the dataset S3 bucket ‘aft-vbi-pds’ and ‘/bin-images’ prefix.
+A bin contains multiple object categories and various numbers of instances. The size of bins varies depending on the size of objects in it. The tapes in front of the bins prevent the items from falling out of them; sometimes, it might make the objects unclear. Objects are sometimes heavily occluded by other objects or limited viewpoints of the images.
+
+Metadata:
+
+
+
+
+The corresponding metadata for each bin image includes the item identification (Amazon Standard Identification Number, ASIN), quantity, height, length, width, weights. 
+Understanding the Image and its metadata is crucial before you develop the solution. Some examples can be found here.
+
+Dataset you should use for this project: https://drive.google.com/file/d/1rSBsWpSUyZ1Wt-mGJZrZH1Vu0JegTnJY/view?usp=drive_link
+The dataset is a list of images and metadata file names without .jpg and .json extension from the AWS S3 bucket which you should download and use for this project.
+
