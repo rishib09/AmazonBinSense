@@ -136,15 +136,32 @@ def asin_list(meta: dict | None) -> list[str]:
     return list((meta.get("BIN_FCSKU_DATA") or {}).keys())
 
 
-def image_url(bin_id: str, local: bool) -> str:
-    if local:
+def image_url(bin_id: str, serve: str, http_base: str = "http://127.0.0.1:8081") -> str:
+    """
+    Build the image reference for a task.
+
+    serve:
+      "http"         – "<http_base>/<id>.jpg" served by tools/labeling/serve_images.py
+                       (CORS enabled). RECOMMENDED: no Label Studio storage/env-var
+                       setup, just run the server in another terminal.
+      "local-files"  – "/data/local-files/?d=images/<id>.jpg", served same-origin by
+                       Label Studio. Requires LS started with
+                       LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true and
+                       LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=<data dir>, and a Local
+                       files source storage registered — but do NOT click Sync.
+      "s3"           – public S3 HTTPS URL. Loads in a browser, but LS's canvas sets
+                       crossorigin="anonymous" and aft-vbi-pds sends NO CORS header,
+                       so LS fails to load it.
+      "file"         – file:// URI (rarely works in the browser; kept for parity).
+    """
+    if serve == "http":
+        return f"{http_base.rstrip('/')}/{bin_id}.jpg"
+    if serve == "local-files":
+        # `d` is relative to LOCAL_FILES_DOCUMENT_ROOT (= the data dir).
+        return f"/data/local-files/?d=images/{bin_id}.jpg"
+    if serve == "file":
         path = IMAGES_DIR / f"{bin_id}.jpg"
-        if not path.exists():
-            # fall back to S3 if local file missing
-            return S3_IMAGE_URL.format(bin_id=bin_id)
-        # Label Studio on localhost accepts absolute paths via /data/local-files/
-        # when storage is configured; for simplicity use file:// URI
-        return path.as_uri()
+        return path.as_uri() if path.exists() else S3_IMAGE_URL.format(bin_id=bin_id)
     return S3_IMAGE_URL.format(bin_id=bin_id)
 
 
@@ -210,7 +227,7 @@ def stratified_sample(
 
 # ── Task builder ──────────────────────────────────────────────────────────────
 
-def build_task(bin_id: str, local: bool) -> dict:
+def build_task(bin_id: str, serve: str, http_base: str = "http://127.0.0.1:8081") -> dict:
     meta = load_meta(bin_id)
     n    = asin_count(meta)
     qty  = expected_quantity(meta)
@@ -218,7 +235,7 @@ def build_task(bin_id: str, local: bool) -> dict:
 
     return {
         "data": {
-            "image":             image_url(bin_id, local),
+            "image":             image_url(bin_id, serve, http_base),
             "bin_id":            bin_id,
             "asin_count":        n if n >= 0 else "unknown",
             "expected_quantity": qty if qty is not None else "unknown",
@@ -248,11 +265,17 @@ def main() -> None:
                         help="Number of 4+ ASIN bins (default 20)")
     parser.add_argument("--seed",   type=int, default=42,
                         help="Random seed for reproducibility (default 42)")
-    parser.add_argument("--local",  action="store_true",
-                        help="Use local file:// URIs instead of S3 HTTPS URLs")
+    parser.add_argument("--serve", choices=["s3", "http", "local-files", "file"], default="s3",
+                        help="Image source. Use 'http' (with serve_images.py) if S3 "
+                             "URLs fail in Label Studio with a CORS error (default: s3)")
+    parser.add_argument("--http-base", default="http://127.0.0.1:8081",
+                        help="Base URL for --serve http (default: http://127.0.0.1:8081)")
+    parser.add_argument("--local", action="store_true",
+                        help="Deprecated alias for --serve file")
     parser.add_argument("--output", type=Path, default=OUTPUT_JSON,
                         help=f"Output JSON path (default: {OUTPUT_JSON})")
     args = parser.parse_args()
+    serve = "file" if args.local else args.serve
 
     print(f"Loading IDs from {CSV_PATH} ...")
     ids = load_ids(CSV_PATH)
@@ -271,8 +294,8 @@ def main() -> None:
     leaked = sorted(set(sampled) & exclude)
     assert not leaked, f"Eval leakage — these eval bins are in the sample: {leaked}"
 
-    print("Building Label Studio tasks ...")
-    tasks = [build_task(bid, args.local) for bid in sampled]
+    print(f"Building Label Studio tasks (serve={serve}) ...")
+    tasks = [build_task(bid, serve, args.http_base) for bid in sampled]
 
     # ── Write outputs ──────────────────────────────────────────────────────────
     CODE_SPLITS.mkdir(parents=True, exist_ok=True)

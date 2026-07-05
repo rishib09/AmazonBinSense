@@ -48,23 +48,56 @@ clipping. Loose boxes produce dirty crops that later pollute the embedder galler
 
 ---
 
-## 3. Setup (once)
+## 3. Setup (Windows + uv)
 
-```bash
-pip install label-studio
-label-studio start
+Label Studio runs via **uvx** (nothing to install into the project).
+
+> **Why not the S3 URLs?** The public `aft-vbi-pds` bucket sends **no CORS header**,
+> and Label Studio renders images on a *cross-origin canvas* (so it can zoom / draw
+> boxes) — so S3 URLs fail to load in LS even though they open fine in a browser.
+> Fix: serve the images we already have **on disk** with CORS enabled.
+
+### Recommended — local CORS static server (no LS storage, no env vars)
+
+**Terminal 1 — image server** (leave it running the whole time you label):
+```powershell
+uv run python tools/labeling/serve_images.py
+# if `uv run` won't stay up, use the venv directly:
+# .\.venv\Scripts\python.exe tools\labeling\serve_images.py
+```
+It prints `Serving … http://127.0.0.1:8081/<id>.jpg` and **stays running** (does not
+return to the prompt). Sanity-check by opening
+<http://127.0.0.1:8081/00015.jpg> in a browser — you should see the bin photo.
+
+**Terminal 2 — Label Studio**:
+```powershell
+uvx label-studio
 ```
 
-1. **Create a project** (e.g., "BinSense M3 seed").
+In the browser:
+1. **Create a project** (e.g., "Amazon Bin Sense").
 2. **Settings → Labeling Interface → Code** → paste
    [`tools/labeling/label_config.xml`](../tools/labeling/label_config.xml).
-3. **Import** `data/label_studio_tasks.json` (Import button → Upload files).
-   - Tasks use **public S3 image URLs** by default → they load with no extra setup.
-   - (Only if you regenerated with `--local`: enable
-     `LOCAL_FILES_SERVING_ENABLED=true` and set a document root — otherwise stick
-     with S3 URLs.)
-4. Label. Use **hotkey `1`** to select `item`, drag to draw, scroll to **zoom**
-   (essential for dense bins).
+3. **Import** `data/label_studio_tasks_http.json` (generated with `--serve http`).
+4. Label with **hotkey `1`**, drag to draw, scroll to **zoom** (essential for dense bins).
+
+**Do NOT** add a Cloud Storage → Local files source and click *Sync* — that's a
+different mechanism; Sync scans the folder as if each `.jpg` were a JSON task and
+errors with `… is not a JSON file`. The static server needs none of that.
+
+Regenerate the http task set (uv):
+```powershell
+uv run python tools/labeling/make_label_studio_tasks.py --serve http --output data/label_studio_tasks_http.json
+```
+Different port? run the server with `--port <p>` and add `--http-base http://127.0.0.1:<p>`.
+
+### Alternative — Label Studio local-files serving
+Set `LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true` and
+`LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=<data dir>` in the shell **before**
+`uvx label-studio`, register a *Local files* source storage at the data dir (Save,
+**do not Sync**), and import `data/label_studio_tasks_localfiles.json`
+(`--serve local-files`). More moving parts than the static server — prefer the
+server above unless you have a reason not to.
 
 ---
 

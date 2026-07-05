@@ -1,0 +1,1580 @@
+[
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02920.jpg",
+      "bin_id": "02920",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00IOFD096"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109308.jpg",
+      "bin_id": "109308",
+      "asin_count": 1,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B01DCO56PY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112602.jpg",
+      "bin_id": "112602",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00GM9NPIW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103764.jpg",
+      "bin_id": "103764",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00IWU5MDK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104910.jpg",
+      "bin_id": "104910",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00008LMB5"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105811.jpg",
+      "bin_id": "105811",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B000C81WGG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/108548.jpg",
+      "bin_id": "108548",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00XJ0I1WW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/110645.jpg",
+      "bin_id": "110645",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01FVS4JHK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/05613.jpg",
+      "bin_id": "05613",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B013TGFWMW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109978.jpg",
+      "bin_id": "109978",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00DMPGFSQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/03037.jpg",
+      "bin_id": "03037",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B000VPXIZS"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08289.jpg",
+      "bin_id": "08289",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00J3W2J00"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/113024.jpg",
+      "bin_id": "113024",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B019EOIIJM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112898.jpg",
+      "bin_id": "112898",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B011NQ2BCY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/110262.jpg",
+      "bin_id": "110262",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B003A6H2Y8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105517.jpg",
+      "bin_id": "105517",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01D8N9XQM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/106088.jpg",
+      "bin_id": "106088",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00P8ZAWK0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/06703.jpg",
+      "bin_id": "06703",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00008KA7I"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/03624.jpg",
+      "bin_id": "03624",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B01ASV6DAQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112808.jpg",
+      "bin_id": "112808",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0053T4PHC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/04281.jpg",
+      "bin_id": "04281",
+      "asin_count": 1,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B0070WTV4M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/106596.jpg",
+      "bin_id": "106596",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00NCMH0JC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01849.jpg",
+      "bin_id": "01849",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B003EMKNPS"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08217.jpg",
+      "bin_id": "08217",
+      "asin_count": 1,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000UH7SVW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105651.jpg",
+      "bin_id": "105651",
+      "asin_count": 1,
+      "expected_quantity": 30,
+      "asin_list": [
+        "B00CIECDEM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 30 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/07257.jpg",
+      "bin_id": "07257",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00B9L7ZFW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/03031.jpg",
+      "bin_id": "03031",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B005FQH3B8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103970.jpg",
+      "bin_id": "103970",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B014JNP2G0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/113735.jpg",
+      "bin_id": "113735",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00PU17QYM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/107201.jpg",
+      "bin_id": "107201",
+      "asin_count": 1,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B0186T37S8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100977.jpg",
+      "bin_id": "100977",
+      "asin_count": 1,
+      "expected_quantity": 9,
+      "asin_list": [
+        "B01D8BSBWQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 9 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/10879.jpg",
+      "bin_id": "10879",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0006HINDI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105484.jpg",
+      "bin_id": "105484",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B002C5W3KQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/102544.jpg",
+      "bin_id": "102544",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B003VKPCV8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100676.jpg",
+      "bin_id": "100676",
+      "asin_count": 1,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B00GF2KVLK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/11041.jpg",
+      "bin_id": "11041",
+      "asin_count": 1,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B008VD9BQM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100198.jpg",
+      "bin_id": "100198",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00FRLHTWE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/101047.jpg",
+      "bin_id": "101047",
+      "asin_count": 1,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B0145GMT0S"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/03835.jpg",
+      "bin_id": "03835",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B001CROHX6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105338.jpg",
+      "bin_id": "105338",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B004MNO8HC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/111775.jpg",
+      "bin_id": "111775",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B005HRZPY2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/07614.jpg",
+      "bin_id": "07614",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B019TLO6LE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/05478.jpg",
+      "bin_id": "05478",
+      "asin_count": 1,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B010XYJCP6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109679.jpg",
+      "bin_id": "109679",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00IOEFBKS"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100669.jpg",
+      "bin_id": "100669",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B009T87JSU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/111389.jpg",
+      "bin_id": "111389",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B0002D0JX8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/05851.jpg",
+      "bin_id": "05851",
+      "asin_count": 1,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B01D3D57YY"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104290.jpg",
+      "bin_id": "104290",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00HUWTYGC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02401.jpg",
+      "bin_id": "02401",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B00VKYKY7E"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02021.jpg",
+      "bin_id": "02021",
+      "asin_count": 1,
+      "expected_quantity": 1,
+      "asin_list": [
+        "B000EVSC8C"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 1 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/102467.jpg",
+      "bin_id": "102467",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00FYJHJMY",
+        "B019IXWBUG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/03205.jpg",
+      "bin_id": "03205",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B007TJGY6O",
+        "B015902LR0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/107382.jpg",
+      "bin_id": "107382",
+      "asin_count": 3,
+      "expected_quantity": 9,
+      "asin_list": [
+        "B0000025MH",
+        "B00QSGO4PC",
+        "B00UNA1OES"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 9 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/11224.jpg",
+      "bin_id": "11224",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000G2R1Z4",
+        "B00WH69YTI",
+        "B015TC63LI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/113235.jpg",
+      "bin_id": "113235",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000ULPVPI",
+        "B00TW72M94",
+        "B01DIFF7NI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/00415.jpg",
+      "bin_id": "00415",
+      "asin_count": 3,
+      "expected_quantity": 10,
+      "asin_list": [
+        "B00004OCLC",
+        "B013L5VMPM",
+        "B019EQOTCU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 10 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/10710.jpg",
+      "bin_id": "10710",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B001ULDAAU",
+        "B00MZGTB2U",
+        "B00OCLAVTI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103763.jpg",
+      "bin_id": "103763",
+      "asin_count": 2,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B0000DBMMO",
+        "B00IWU5MDK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/110842.jpg",
+      "bin_id": "110842",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B001ACMBJK",
+        "B00UUJMTUK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105572.jpg",
+      "bin_id": "105572",
+      "asin_count": 2,
+      "expected_quantity": 20,
+      "asin_list": [
+        "B01104WJCG",
+        "B01EOF5ZY2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 20 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/111580.jpg",
+      "bin_id": "111580",
+      "asin_count": 2,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B00JH8M2D4",
+        "B0178WDRIO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/101179.jpg",
+      "bin_id": "101179",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000P1UA9U",
+        "B00A3DPO3C",
+        "B01C7EVXZ2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105123.jpg",
+      "bin_id": "105123",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00BYVYHJ4",
+        "B00EB4ADQW",
+        "B00M2JBBJG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08362.jpg",
+      "bin_id": "08362",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B00FZMTRFW",
+        "B00V6BSCF2",
+        "B01DNC0REU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01559.jpg",
+      "bin_id": "01559",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "1935589679",
+        "B000X721ZC",
+        "B00DC0ZPFU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/102516.jpg",
+      "bin_id": "102516",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B004YHVNWO",
+        "B00EA06U7S",
+        "B015IK3NPA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/10989.jpg",
+      "bin_id": "10989",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00823GUZG",
+        "B00NC3DSN8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100945.jpg",
+      "bin_id": "100945",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B004EHSP3Y",
+        "B01CJ7BGEK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/102285.jpg",
+      "bin_id": "102285",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B0032Z8KH0",
+        "B01EFCZ1IE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/108075.jpg",
+      "bin_id": "108075",
+      "asin_count": 3,
+      "expected_quantity": 14,
+      "asin_list": [
+        "B00O6UCXUK",
+        "B00QK888GY",
+        "B00U6H39IM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 14 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/00876.jpg",
+      "bin_id": "00876",
+      "asin_count": 2,
+      "expected_quantity": 13,
+      "asin_list": [
+        "B000RI6C7K",
+        "B005H4I6SC"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 13 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104740.jpg",
+      "bin_id": "104740",
+      "asin_count": 2,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00B6ERHNC",
+        "B00U2UZ40Y"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01967.jpg",
+      "bin_id": "01967",
+      "asin_count": 2,
+      "expected_quantity": 8,
+      "asin_list": [
+        "B018AP1WMQ",
+        "B01BUURG3C"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 8 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112297.jpg",
+      "bin_id": "112297",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B008WCQEYY",
+        "B00YQKRL70"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02546.jpg",
+      "bin_id": "02546",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B007RFSQDO",
+        "B00V7M9YQQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01554.jpg",
+      "bin_id": "01554",
+      "asin_count": 3,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B005IGW8IS",
+        "B00QH4VUUM",
+        "B010CAEOUO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/108368.jpg",
+      "bin_id": "108368",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B0102ZQ3LM",
+        "B017L1WXD2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/05644.jpg",
+      "bin_id": "05644",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00K0VTVTA",
+        "B016N85VTW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/10587.jpg",
+      "bin_id": "10587",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B004T395J6",
+        "B005DKKBUG",
+        "B01DN0AJXQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/108107.jpg",
+      "bin_id": "108107",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B0144MFPOA",
+        "B014LVI0D2",
+        "B01FFG9J0U"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08747.jpg",
+      "bin_id": "08747",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B0002X4DP8",
+        "B015EHYWRA",
+        "B01EZLWEL2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/101177.jpg",
+      "bin_id": "101177",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B003DH1S26",
+        "B00U1NFVZ0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104865.jpg",
+      "bin_id": "104865",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B003RBB2PQ",
+        "B00EC2CKW8",
+        "B015TC63LI"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01625.jpg",
+      "bin_id": "01625",
+      "asin_count": 3,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B0000DBMMO",
+        "B00AM1WAN2",
+        "B00OKRSMV8"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/04472.jpg",
+      "bin_id": "04472",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B0015MT27Y",
+        "B007PJK04A",
+        "B00FM4E3SE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/106903.jpg",
+      "bin_id": "106903",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000GRA1OM",
+        "B0056QXWVM",
+        "B00SLPO7VE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103126.jpg",
+      "bin_id": "103126",
+      "asin_count": 2,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00HLEG79G",
+        "B00NJUT306"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/111850.jpg",
+      "bin_id": "111850",
+      "asin_count": 3,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B000E1FZIW",
+        "B003Z3R4KI",
+        "B004VNYXAU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/107146.jpg",
+      "bin_id": "107146",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B004I149RW",
+        "B0055FGAS6"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112784.jpg",
+      "bin_id": "112784",
+      "asin_count": 3,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B00I1JWWXU",
+        "B01C5543MS",
+        "B01CFMQZXQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104478.jpg",
+      "bin_id": "104478",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B000I0396E",
+        "B00EKPHGQM",
+        "B00HRSWRHW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100047.jpg",
+      "bin_id": "100047",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B002ILXDY4",
+        "B0055521W0",
+        "B016BBZ8NK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104834.jpg",
+      "bin_id": "104834",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B000FRVOPI",
+        "B000GG2HOU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/112118.jpg",
+      "bin_id": "112118",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00J05ME0K",
+        "B00Y1HPJWW",
+        "B01A7RCDAA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/106435.jpg",
+      "bin_id": "106435",
+      "asin_count": 2,
+      "expected_quantity": 2,
+      "asin_list": [
+        "B00U0NDJKK",
+        "B00ZTRWX7C"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 2 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/04802.jpg",
+      "bin_id": "04802",
+      "asin_count": 3,
+      "expected_quantity": 3,
+      "asin_list": [
+        "B00U8M34RG",
+        "B01A94WK7M",
+        "B01CBMDY3O"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 3 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/104463.jpg",
+      "bin_id": "104463",
+      "asin_count": 3,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B0007ZULSY",
+        "B00ND5ZC0W",
+        "B00ZF8U53E"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/106500.jpg",
+      "bin_id": "106500",
+      "asin_count": 3,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B0009IQZFM",
+        "B004HCM9H4",
+        "B0095MH2ZU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/00278.jpg",
+      "bin_id": "00278",
+      "asin_count": 2,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B000J07BRQ",
+        "B0017J67I2"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/06274.jpg",
+      "bin_id": "06274",
+      "asin_count": 3,
+      "expected_quantity": 12,
+      "asin_list": [
+        "B002MWB7IS",
+        "B002NFUNHA",
+        "B005OK3JT0"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 12 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08149.jpg",
+      "bin_id": "08149",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B0007TKHFW",
+        "B0091HKNLE",
+        "B013INLPF4",
+        "B01G317714"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/06870.jpg",
+      "bin_id": "06870",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00LMR6EEQ",
+        "B00OV9JT0I",
+        "B00SO1IH7A",
+        "B01CSH5Q60"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109879.jpg",
+      "bin_id": "109879",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "1111346550",
+        "1305251075",
+        "B00DLDH1N2",
+        "B018R4Z6KO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103781.jpg",
+      "bin_id": "103781",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00ASJOCDO",
+        "B00N4OSR8Q",
+        "B010MVQHR6",
+        "B01D3BPZ0M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109762.jpg",
+      "bin_id": "109762",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B001QY0SLU",
+        "B0049Z6WQ8",
+        "B0132LVW0A",
+        "B017AM2IDW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/105115.jpg",
+      "bin_id": "105115",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B004TEVQX8",
+        "B00C7W5B12",
+        "B00XJS9LIW",
+        "B01ANMO71M"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02959.jpg",
+      "bin_id": "02959",
+      "asin_count": 4,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B00QMTG8BI",
+        "B00XXFGE5E",
+        "B01EKY8O7W",
+        "B01GDQLDBO"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/02204.jpg",
+      "bin_id": "02204",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B005Z81YQ6",
+        "B008TLBN2Q",
+        "B014PYKI6C",
+        "B01F8OTYSQ"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/103704.jpg",
+      "bin_id": "103704",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B001JL4LZ4",
+        "B0057FQCNC",
+        "B006ZT4VA0",
+        "B00L8OEHEM"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01592.jpg",
+      "bin_id": "01592",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B000GG2HOU",
+        "B0017ZJWD8",
+        "B001C6OYG2",
+        "B00HUJJOQU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/07431.jpg",
+      "bin_id": "07431",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B004Q3SBYO",
+        "B00B6IM3GE",
+        "B00K3BJV74",
+        "B018Z5C1NU"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/01584.jpg",
+      "bin_id": "01584",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B0001NE4TO",
+        "B000A2G2U0",
+        "B009T71ELY",
+        "B01EX4UXKA"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/08293.jpg",
+      "bin_id": "08293",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B00KA84CXI",
+        "B00N6EC1MM",
+        "B00QSHKE5K",
+        "B014GUKH7A"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/100305.jpg",
+      "bin_id": "100305",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "B00132GQD4",
+        "B003TFE7VG",
+        "B00GJ2EMSY",
+        "B013HW8ZIG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/10608.jpg",
+      "bin_id": "10608",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B002FTSTL6",
+        "B00IOFDKMS",
+        "B00JXBLIJY",
+        "B00TV0SMEG"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/109761.jpg",
+      "bin_id": "109761",
+      "asin_count": 4,
+      "expected_quantity": 6,
+      "asin_list": [
+        "B001QY0SLU",
+        "B0049Z6WQ8",
+        "B0132LVW0A",
+        "B017AM2IDW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 6 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/04908.jpg",
+      "bin_id": "04908",
+      "asin_count": 4,
+      "expected_quantity": 7,
+      "asin_list": [
+        "B0018C6XSW",
+        "B001VLFE7G",
+        "B0085MNH6Y",
+        "B01EHIP8HK"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/04146.jpg",
+      "bin_id": "04146",
+      "asin_count": 4,
+      "expected_quantity": 5,
+      "asin_list": [
+        "B0067VLJWE",
+        "B008EGUEBM",
+        "B00MHTR5B4",
+        "B015PYYO0C"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 5 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/111423.jpg",
+      "bin_id": "111423",
+      "asin_count": 4,
+      "expected_quantity": 7,
+      "asin_list": [
+        "1455707139",
+        "B005K47BS0",
+        "B0132LVW0A",
+        "B015MY23GW"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 7 item(s) total."
+    }
+  },
+  {
+    "data": {
+      "image": "http://127.0.0.1:8081/113481.jpg",
+      "bin_id": "113481",
+      "asin_count": 4,
+      "expected_quantity": 4,
+      "asin_list": [
+        "1616950730",
+        "B0007WW66M",
+        "B00U7EOFDM",
+        "B011YZGPOE"
+      ],
+      "hint": "Draw a bounding box around every visible item. Expected 4 item(s) total."
+    }
+  }
+]
