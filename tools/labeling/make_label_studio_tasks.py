@@ -295,12 +295,13 @@ def main() -> None:
             ])
     print(f"  Written: {OUTPUT_CSV}")
 
-    print("\nNext steps:")
+    print("\nNext steps (see docs/03_LABELING_GUIDE.md for the full convention):")
     print("  1. Start Label Studio:  label-studio start")
-    print("  2. Create project -> use the RectangleLabels XML config (see README)")
+    print("  2. Settings -> Labeling Interface -> Code -> paste "
+          "tools/labeling/label_config.xml")
     print(f"  3. Import tasks:        {args.output}")
-    print("  4. Label all items with bounding boxes (single class: 'item')")
-    print("  5. Export -> YOLO format -> data/labels/")
+    print("  4. Label every VISIBLE item with a tight box (single class: 'item')")
+    print("  5. Export -> YOLO format -> data/labels/  (class 0 = item)")
 
 
 if __name__ == "__main__":

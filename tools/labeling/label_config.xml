@@ -1,0 +1,28 @@
+<!--
+  BinSense M3 — Label Studio labeling interface (single-class object detection)
+  ============================================================================
+  Paste this into: Label Studio → Project → Settings → Labeling Interface →
+  "Code" tab. Pairs with tasks from `data/label_studio_tasks.json`.
+
+  ONE class only ("item"). Draw a tight box around every VISIBLE physical unit.
+  The metadata below is REFERENCE for sanity-checking — do NOT blindly draw
+  `expected_quantity` boxes; box what you can actually see (see LABELING_GUIDE).
+  Export as YOLO → data/labels/  (class 0 = item).
+-->
+<View>
+  <!-- ── Context panel (reference only) ─────────────────────────────── -->
+  <Header value="Bin $bin_id"/>
+  <Text name="hint"     value="$hint"/>
+  <Header value="Reference metadata — sanity-check, do NOT copy counts blindly"/>
+  <Text name="distinct" value="Distinct products (ASINs): $asin_count"/>
+  <Text name="expected" value="Expected TOTAL units in bin: $expected_quantity"/>
+  <Text name="asins"    value="ASIN list: $asin_list"/>
+
+  <!-- ── Image + single-class rectangle labels ──────────────────────── -->
+  <Image name="image" value="$image"
+         zoom="true" zoomControl="true" rotateControl="false"
+         maxWidth="100%"/>
+  <RectangleLabels name="label" toName="image" strokeWidth="2" opacity="0.3">
+    <Label value="item" background="#FF6B00" hotkey="1"/>
+  </RectangleLabels>
+</View>
