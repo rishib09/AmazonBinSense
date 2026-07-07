@@ -39,6 +39,7 @@ class BinSensePaths:
     data_dir: Path   # data root (may differ from base_dir — set via BINSENSE_DATA_DIR)
     images_dir: Path = field(init=False)
     metadata_dir: Path = field(init=False)
+    artifacts_dir: Path = field(init=False)
     models_dir: Path = field(init=False)
     notebooks_dir: Path = field(init=False)
     labels_dir: Path = field(init=False)
@@ -50,9 +51,15 @@ class BinSensePaths:
         self.metadata_dir = self.data_dir / "metadata"
         self.labels_dir   = self.data_dir / "labels"
         self.splits_dir   = self.data_dir / "splits"
-        self.models_dir   = self.base_dir / "models"
+        # Artifacts (models, MLflow) are PERSISTENT outputs — they must live next to
+        # the data root, NOT under base_dir. On Colab base_dir is the ephemeral git
+        # clone (/content/AmazonBinSense) that is wiped when the session ends, so
+        # anchoring models there silently loses trained weights. data_dir.parent is
+        # the Drive project folder on Colab (persists) and the repo root locally.
+        self.artifacts_dir = self.data_dir.parent
+        self.models_dir   = self.artifacts_dir / "models"
         self.notebooks_dir = self.base_dir / "notebooks"
-        self.mlflow_dir   = self.base_dir / "mlruns"
+        self.mlflow_dir   = self.artifacts_dir / "mlruns"
 
     def makedirs(self) -> None:
         for p in [
