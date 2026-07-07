@@ -21,8 +21,14 @@
 - **Physical unit** — one sellable item = one box. A "3-pack" is sold as **one**
   ASIN, so it is **one box**, not three (the order's *quantity* counts packs, not
   the things inside a pack).
-- **Single class** — everything is `item`. Identity (which ASIN) is solved later by
-  the embedder; the detector only localizes and counts.
+- **Single class ≠ single ASIN** — everything is `item`, regardless of which ASIN it
+  is. The sample is intentionally **50 single + 50 multi + 20 hard** ASIN bins; in a
+  multi-ASIN bin you box **every** item of **every** ASIN, all tagged `item`. Identity
+  (which ASIN) is solved later by the embedder — never the labeler.
+- **Count integrity — one item = exactly one axis-aligned box.** The detector counts
+  boxes, so box count must equal item count. Never split one item into two boxes
+  (e.g., to trace an L-shape, or an item split by an occluder) — draw the single
+  rectangle that encloses all its visible parts. Never merge two items into one box.
 
 The metadata shown in the UI (`expected_quantity`, `asin_count`, `asin_list`) is a
 **sanity check**, not a target. If you can only see 4 items in a bin whose metadata
@@ -35,7 +41,8 @@ says 6, label **4** — do not invent 2 boxes to match.
 | Situation | What to do |
 |---|---|
 | **Occlusion** — item mostly hidden behind another | If you're confident it's a *separate* item, draw one box over the visible sliver. If you genuinely can't tell it's there, skip it. |
-| **Dense identical pile** (e.g., 14 scissors stacked) | Box each unit you can individually distinguish (a distinct top/edge/handle). Don't force the count to match metadata; box what's separable. |
+| **Dense identical pile** (e.g., 14 scissors, or sheets/discs stacked edge-on) | **One box per distinguishable group/unit.** Box each unit you can individually separate; where items are edge-stacked and genuinely indistinguishable, one box around the group is fine. Don't force the count to match metadata — and apply the *same* rule to every such bin so the count target stays consistent. |
+| **Irregular / L-shaped / one item split by an occluder** | Still **one item → one box**: the axis-aligned rectangle enclosing all its visible parts (it will include some background — that's normal for bbox detection). Do **not** trace the shape with multiple boxes. |
 | **Multi-pack / bundle** (blister of 2, "3-pack") | **One box** — it's one sellable unit (one ASIN). |
 | **Ambiguous boundary** between two touching same-color items | Split into two boxes only if you can see two distinct items; otherwise one. Be consistent across the batch. |
 | **Partially cut off at frame edge** | Box it if it's clearly an item; include only the visible part. |
