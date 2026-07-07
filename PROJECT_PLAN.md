@@ -74,6 +74,41 @@ Measured over the **3,875-bin** subset (fetched from S3 metadata, 0 errors):
 
 ---
 
+## 4a. Evaluator-template feature checklist (must-cover, M5–M15)
+
+Cross-referenced against the evaluator "Student Exercise" notebooks in `docs/`
+(Week 4&5 = identity/eval; Week 7 = frontend). We deliberately **exceed** them
+(detection + retrieval gallery + staged self-training vs their whole-image Siamese
+similarity), but must still **demonstrate the techniques they scaffold** so nothing
+expected is missing:
+
+**M5–M7 (from Week 4&5 template):**
+- [ ] Compare **≥3 embedder backbones** (e.g. ResNet50 / MobileNetV2 / CLIP) — report
+      accuracy + inference speed + model-size trade-offs (template compares
+      VGG16/ResNet50/MobileNetV2).
+- [ ] **Metric-learning loss** (contrastive or triplet) with positive/negative (or
+      anchor/pos/neg) sampling.
+- [ ] **ROC curve + cosine-distance threshold optimization** (mirrors the UI
+      similarity-threshold slider).
+- [ ] **Confusion matrix + precision / recall / F1 + AUC** on the identity gold set.
+- [ ] **Training-history visualization** (loss/metric curves, per backbone).
+- [ ] **Model saving with versioning + metadata** → MLflow registry (M10).
+- [ ] Keep a whole-image **Siamese-similarity baseline** to justify our retrieval
+      approach *with numbers*.
+
+**M8 (from Week 7 template):**
+- [ ] **Streamlit UI** with: input validation, session state, progress/loading
+      states, error handling, result caching, downloadable report (optional: dark mode).
+
+Our advances (YOLO detection, FAISS gallery, constrained matching, self-training)
+are additive on top of this checklist, not a replacement for it.
+
+**M2 image-analysis gaps (Week 2&3 template): CLOSED** in
+`notebooks/02b_eda_image_analysis.ipynb` (SNR, entropy, edge density, Sobel, contour
+analysis, correlation heatmap + Spearman, bin-weight/overloaded-bin analysis).
+
+---
+
 ## 5. Time-bound milestones
 
 ### Week 0 — Setup (weekend, Jun 6–7) *(light)*
