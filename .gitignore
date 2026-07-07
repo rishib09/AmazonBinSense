@@ -18,12 +18,15 @@ env/
 data/images/
 data/metadata/
 data/labels/
-data/labels_staging/     # auto-label output awaiting human review (M3)
-data/yolo/               # generated YOLO dataset manifest (abs paths; not portable)
+# auto-label output awaiting human review (M3)
+data/labels_staging/
+# generated YOLO dataset manifest (abs paths; not portable)
+data/yolo/
 # data/splits/ is intentionally tracked — split CSVs are small and define
 # the seed/extend/eval partition (reproducibility artifact).
 mlruns/
-reports/                 # QA artifacts (label overlays, etc.)
+# QA artifacts (label overlays, etc.)
+reports/
 
 # Models — saved to Drive/registry, not git
 models/
