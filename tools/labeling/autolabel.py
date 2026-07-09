@@ -286,8 +286,13 @@ def build_track(track: str, sam_dir, zs_dir, out_dir, meta_dir,
     eval_ids = set(eval_ids)
     st = TrackStats(track=track)
 
+    # Only bins with at least one method output are worth processing. Deriving this
+    # from two directory listings avoids a slow per-bin Drive stat/read across the
+    # thousands of unlabeled `extend` bins the caller may pass in.
+    present = {p.stem for p in sam_dir.glob("*.txt")} | {p.stem for p in zs_dir.glob("*.txt")}
+
     for bid in bin_ids:
-        if bid in eval_ids:            # the one wall we never cross
+        if bid in eval_ids or bid not in present:   # skip eval wall + unlabeled bins
             continue
         st.n_bins_in += 1
         sam = read_boxes(sam_dir / f"{bid}.txt", "sam")
