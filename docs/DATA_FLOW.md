@@ -197,6 +197,13 @@ graded deliverable), but the running app only needs the trained weights.
 | D6 | Gating logic on CPU (`autolabel.py`), GPU does inference only | Testable without a GPU; the intellectual core is auditable |
 | D7 | Notebooks are the deliverable; `tools/` is the engine | Mentor brief wants narrative notebooks; engine keeps them thin |
 | D8 | EC2 deployment is non-negotiable → M3b is time-boxed | Required deliverable; don't let labeling perfection eat the deploy |
+| D9 | **Auto-labeling abandoned** — raw union noisy, SAM∩zero-shot starved, SAM∩M4 correlated-errors | Measured on ~200 bins; fully-automatic labeling can't box items on cluttered/occluded ABID bins. See `M3b_FINDINGS.md` |
+| D10 | **Pivot to Siamese-first (2026-07-09)** — Siamese similarity model is the graded core; detection demoted to optional | Evaluator template (`Copy of Week 4 & 5.ipynb`) = Siamese + ROC/threshold/confusion (VGG16 vs ResNet50), **no detection**. Core needs no detection labels |
+| D11 | Keep M4 baseline + M3b engine as an **optional counting/innovation add-on**, not critical path | Objectives reward innovation; the explored-and-set-aside branch is legitimate video content |
+
+> **Status note (2026-07-09):** the pivot demotes the detection column of the §1 pipeline.
+> New critical path: **M5 Siamese similarity** (whole-bin pairs) → verify (ROC/threshold/
+> confusion) → productionize → EC2. YOLO/M4/M3b remain in-repo as an optional enhancement.
 
 ---
 
