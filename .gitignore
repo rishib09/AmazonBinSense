@@ -20,8 +20,14 @@ data/metadata/
 data/labels/
 # auto-label output awaiting human review (M3)
 data/labels_staging/
-# generated YOLO dataset manifest (abs paths; not portable)
+# M3b auto-label pipeline: raw per-method boxes + Track 1/2 label sets
+data/labels_auto/
+data/labels_track1/
+data/labels_track2/
+# generated YOLO dataset manifests (abs paths; not portable)
 data/yolo/
+data/yolo_track1/
+data/yolo_track2/
 # data/splits/ is intentionally tracked — split CSVs are small and define
 # the seed/extend/eval partition (reproducibility artifact).
 mlruns/
